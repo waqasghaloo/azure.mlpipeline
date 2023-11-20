@@ -1,6 +1,7 @@
 # Configuration files
 config.json
 src/
+mlruns/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
