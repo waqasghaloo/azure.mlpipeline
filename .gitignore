@@ -1,6 +1,6 @@
 # Configuration files
 config.json
-src/
+src/config.json
 mlruns/
 
 # Byte-compiled / optimized / DLL files
