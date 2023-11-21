@@ -1,5 +1,7 @@
 # azure.mlpipeline
 
+[Tutorial](https://learn.microsoft.com/en-us/azure/machine-learning/tutorial-azure-ml-in-a-day?view=azureml-api-2#create-training-script)
+
 [There are two CLIs provided by Azure 'az' and 'azd'](https://devblogs.microsoft.com/azure-sdk/introducing-the-azure-developer-cli-a-faster-way-to-build-apps-for-the-cloud/)
 ##### The Azure Developer CLI (azd) is intended to be complementary to the Azure CLI (az). With the Azure Developer CLI, we keep the commands you use high-level and mapped to stages your development workflow. By keeping things high-level some of the nitty gritty control plane management pieces get abstracted away so that you can focus on writing code. If you want to do more fine-tuned management of Azure resources, your best bet is the Azure CLI. With azd, you get prebuilt templates and focus on writing code rather than building completing application from scratch.
 
