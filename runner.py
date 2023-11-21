@@ -1,9 +1,12 @@
+# Import necessary modules
 from azure.ai.ml import command
 from azure.ai.ml import Input
 from connection import create_ml_client, construct_path, read_configjson
 
+# Define the name of the registered model
 registered_model_name = "credit_defaults_model"
 
+# Define the ML job configuration
 job = command(
     inputs=dict(
         data=Input(
@@ -23,4 +26,5 @@ job = command(
 # Create a client of Azure ML
 ml_client = create_ml_client()
 
+# Create or update the ML job
 ml_client.create_or_update(job)
