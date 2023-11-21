@@ -5,18 +5,17 @@
 
 [Learning Series Youtube](https://www.youtube.com/playlist?list=PLlrxD0HtieHjDop2DtiCmwTTcrlwKAVHE)
 
-#### Authenticte
+#### Authenticate
 [Install Azure CLI Developer azd on VSCode](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows)
 ##### Authenticate using 'azd auth login' and credentials will be brought to DefaultCredentials class
 
 [Installation of az CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
 
-#### Setup Enviroment
-[Setup development enviroment of azure ml](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-configure-environment?view=azureml-api-2#local-and-dsvm-only-create-a-workspace-configuration-file)
+#### Setup Environment
+[Setup development environment of Azure ML](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-configure-environment?view=azureml-api-2#local-and-dsvm-only-create-a-workspace-configuration-file)
 
-
-### Step#1: Create a azure ml client/handle
+### Step #1: Create an Azure ML client/handle
 
 [Connect with created workspace](https://learn.microsoft.com/en-us/python/api/azure-ai-ml/azure.ai.ml.mlclient?view=azure-python#azure-ai-ml-mlclient-from-config)
 
-[store configurations in config.json file](https://learn.microsoft.com/en-us/python/api/azure-ai-ml/azure.ai.ml.mlclient?view=azure-python#azure-ai-ml-mlclient-from-config)
+[Store configurations in config.json file](https://learn.microsoft.com/en-us/python/api/azure-ai-ml/azure.ai.ml.mlclient?view=azure-python#azure-ai-ml-mlclient-from-config)
